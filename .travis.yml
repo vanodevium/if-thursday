@@ -1,7 +1,6 @@
 dist: focal
 language: node_js
 node_js:
-  - "16"
-  - "17"
-  - "18"
+  - "lts/*"
+  - "node"
 script: npm test
