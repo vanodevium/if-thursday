@@ -1,5 +1,7 @@
 'use strict';
 
+const {describe, expect, test} = require('@jest/globals');
+
 const ifThursday = require('.');
 
 describe('if-thursday', () => {
