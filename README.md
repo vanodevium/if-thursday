@@ -1,8 +1,8 @@
 # if-thursday
 
+![Build status](https://img.shields.io/github/actions/workflow/status/vanodevium/if-thursday/ci.yaml)
 [![NPM version](https://img.shields.io/npm/v/if-thursday.svg?style=flat)](https://www.npmjs.com/package/if-thursday)
 ![NPM](https://img.shields.io/npm/l/if-thursday)
-![Travis (.com)](https://img.shields.io/travis/com/vanodevium/if-thursday)
 ![npm](https://img.shields.io/npm/dw/if-thursday)
 
 Returns `true` if today is Thursday.
