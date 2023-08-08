@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-const THURSDAY_DAY_OF_WEEK = 4
+const THURSDAY_DAY_OF_WEEK = 4;
 
 /**
  * Check if today is Thursday
@@ -8,5 +8,5 @@ const THURSDAY_DAY_OF_WEEK = 4
  * @return {boolean}
  */
 module.exports = function () {
-  return THURSDAY_DAY_OF_WEEK === new Date().getDay()
+  return THURSDAY_DAY_OF_WEEK === new Date().getDay();
 };

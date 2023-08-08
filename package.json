@@ -1,6 +1,6 @@
 {
   "name": "if-thursday",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Returns true only if today is Thursday.",
   "keywords": [
     "week",
@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "jest-extended": "^3.2.4"
+    "jest": "^29.6.2",
+    "jest-extended": "^4.0.1"
   }
 }
