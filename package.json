@@ -1,6 +1,6 @@
 {
   "name": "if-thursday",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Returns true only if today is Thursday.",
   "keywords": [
     "week",
