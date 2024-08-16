@@ -1,9 +1,15 @@
+# Stand With Ukraine 🇺🇦
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+
+---
+
 # if-thursday
 
 ![Build status](https://img.shields.io/github/actions/workflow/status/vanodevium/if-thursday/ci.yaml)
 [![NPM version](https://img.shields.io/npm/v/if-thursday.svg?style=flat)](https://www.npmjs.com/package/if-thursday)
 ![NPM](https://img.shields.io/npm/l/if-thursday)
-![npm](https://img.shields.io/npm/dw/if-thursday)
+![NPM](https://img.shields.io/npm/dw/if-thursday)
 
 Returns `true` if today is Thursday.
 
@@ -12,7 +18,7 @@ Returns `true` if today is Thursday.
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save if-thursday
+$ npm i if-thursday
 ```
 
 ## Usage
@@ -29,4 +35,10 @@ console.log(ifThursday()); // false
 
 ## License
 
-The if-thursday package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**if-thursday** is open-sourced software licensed under the [MIT license](./LICENSE).
+
+[Vano Devium](https://github.com/vanodevium/)
+
+---
+
+Made with ❤️ in Ukraine
