@@ -19,5 +19,6 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
+      - run: npm -g i npm
       - run: npm i
       - run: npm run test
