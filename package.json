@@ -13,7 +13,10 @@
   ],
   "homepage": "https://github.com/vanodevium/if-thursday",
   "bugs": "https://github.com/vanodevium/if-thursday/issues",
-  "repository": "https://github.com/vanodevium/if-thursday",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanodevium/if-thursday.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Vano Devium",
