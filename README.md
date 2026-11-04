@@ -24,7 +24,7 @@ $ npm i if-thursday
 ## Usage
 
 ```js
-const ifThursday = require('if-thursday');
+const ifThursday = require("if-thursday");
 
 // if today is Thursday
 console.log(ifThursday()); // true

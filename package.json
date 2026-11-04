@@ -1,6 +1,6 @@
 {
   "name": "if-thursday",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Returns true only if today is Thursday.",
   "keywords": [
     "week",
@@ -18,23 +18,30 @@
   "author": {
     "name": "Vano Devium",
     "email": "vano@devium.me",
-    "url": "https://www.devium.me"
+    "url": "https://devium.me"
   },
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./if-thursday.js",
+      "require": "./if-thursday.cjs.js",
+      "default": "./if-thursday.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./if-thursday.cjs.js",
+  "module": "./if-thursday.js",
   "files": [
-    "index.js"
+    "if-thursday.cjs.js",
+    "if-thursday.js"
   ],
   "scripts": {
-    "test": "jest --coverage"
-  },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "jest-extended/all"
-    ]
+    "build": "rolldown -c rolldown.config.js",
+    "fix": "biome check --write",
+    "test": "vitest run --coverage"
   },
   "devDependencies": {
-    "@jest/globals": "29.7.0",
-    "jest": "29.7.0",
-    "jest-extended": "4.0.2"
+    "@vitest/coverage-v8": "5.1.0",
+    "rolldown": "1.2.16",
+    "vitest": "5.1.0"
   }
 }
